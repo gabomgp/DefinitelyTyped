@@ -184,6 +184,7 @@ declare namespace Chart {
     }
 
     interface ChartOptions {
+        scaleShowVerticalLines: boolean;
         responsive?: boolean;
         responsiveAnimationDuration?: number;
         aspectRatio?: number;
